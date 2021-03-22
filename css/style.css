@@ -616,7 +616,7 @@ img {
   left: 0;
   height: 100%;
   width: 100%;
-  background: rgba(0,0,0,.5);
+  background: linear-gradient(to right, rgba(0, 131, 176, 0.7), rgba(0, 180, 219, 0.7));
 }
 .s-header .cloud-over:after {
   content: '';

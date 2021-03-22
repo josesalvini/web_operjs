@@ -13,7 +13,7 @@ $(document).ready(function () {
             $(this).remove();
         });
     });
-    
+
     // SHOW COLOR OPTION DIV WHEN CLICK ON THE GEAR
     $(".gear-check").on('click',(function () {
         $(".color-option").fadeToggle();
@@ -52,7 +52,7 @@ $(document).ready(function () {
     });
     // Typed JS TRIGGER
     $(".about .about-ct h3 span").typed({
-        strings: ["Web designer", "UX Devloper"],
+        strings: ["Web", "Movil", "Docker"],
         loop: true,
         startDelay: 1e3,
         backDelay: 3e3
