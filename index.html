@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="DESCRIPTION">
+	<meta name="keywords" content="KEYWORDS">
+	<meta name="author" content="AUTHOR NAME">
+	<title>Operjs - Desarrollos a medida</title>
+	<link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="./img/favicon/site.webmanifest">
+	<link rel="mask-icon" href="./img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+	<!-- BOOTSTRAP CSS -->
+	<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+	<!-- FONT-AWESOME & ET-LINE-FONT CSS -->
+	<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/et-line-font/et-line-font.css">
+	<!-- MAGNIFIC POPUP CORE CSS -->
+	<link href="css/magnific-popup/magnific-popup.css" rel="stylesheet">
+	<!-- OWL CAROUSEL -->
+	<link href="css/owl-carousel/owl.carousel.min.css" rel="stylesheet">
+	<link href="css/owl-carousel/owl.theme.default.min.css" rel="stylesheet">
+	<!-- MAIN STYLE CSS -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- RESPONSIVE STYLE CSS -->
+	<link rel="stylesheet" href="css/responsive.css">
+	<!-- COLORS CSS -->
+	<link rel="stylesheet" href="css/colors/blue.css">
+	<!-- CUSTOM COLORS -->
+	<!--
+		<link rel="stylesheet" href="css/colors/blue.css">
+		<link rel="stylesheet" href="css/colors/brown.css">
+		<link rel="stylesheet" href="css/colors/gold.css">
+		<link rel="stylesheet" href="css/colors/grapefruit.css">
+		<link rel="stylesheet" href="css/colors/green.css">
+		<link rel="stylesheet" href="css/colors/orange.css">
+		<link rel="stylesheet" href="css/colors/red.css">
+		<link rel="stylesheet" href="css/colors/g-blue.css">
+		<link rel="stylesheet" href="css/colors/g-brown.css">
+		<link rel="stylesheet" href="css/colors/g-gold.css">
+		<link rel="stylesheet" href="css/colors/g-grapefruit.css">
+		<link rel="stylesheet" href="css/colors/g-green.css">
+		<link rel="stylesheet" href="css/colors/g-orange.css">
+		<link rel="stylesheet" href="css/colors/g-red.css">
+		-->
+</head>
+<body>
+	<div class="loading">
+		<div class="sk-folding-cube">
+			<div class="sk-cube1 sk-cube"></div>
+			<div class="sk-cube2 sk-cube"></div>
+			<div class="sk-cube4 sk-cube"></div>
+			<div class="sk-cube3 sk-cube"></div>
+		</div>
+	</div>
+	<!-- COLOR SWITCHE -->
+	<div class="option-box">
+		<div class="color-option">
+			<span id="t-title">Cambiar color:</span>
+			<div class="list-unstyled">
+				<ul class="colors">
+					<li data-value="css/colors/blue.css" id="color1"></li>
+					<li data-value="css/colors/green.css" id="color2"></li>
+					<li data-value="css/colors/orange.css" id="color3"></li>
+					<li data-value="css/colors/red.css" id="color4"></li>
+					<li style="display: block;height: 0;width: 0;"></li>
+					<li data-value="css/colors/brown.css" id="color5"></li>
+					<li data-value="css/colors/gold.css" id="color6"></li>
+					<li data-value="css/colors/grapefruit.css" id="color7"></li>
+					<li style="display: block;height: 0;width: 0;"></li>
+					<li data-value="css/colors/g-blue.css" id="color9"></li>
+					<li data-value="css/colors/g-green.css" id="color10"></li>
+					<li data-value="css/colors/g-orange.css" id="color11"></li>
+					<li data-value="css/colors/g-red.css" id="color12"></li>
+					<li style="display: block;height: 0;width: 0;"></li>
+					<li data-value="css/colors/g-brown.css" id="color13"></li>
+					<li data-value="css/colors/g-gold.css" id="color14"></li>
+					<li data-value="css/colors/g-grapefruit.css" id="color15"></li>
+				</ul>
+			</div>
+		</div>
+		<div class="gear-check">
+			<i class="fa fa-cog fa-spin fa-fw"></i>
+		</div>
+	</div>
+	<div class="sidebar">
+		<div class="side-logo">
+			<img src="./img/logo100x72.png" alt="Logo" />
+		</div>
+		<div class="humberger-menu">
+			<span class="hb-btn"></span>
+		</div>
+	</div>
+	<div class="lf-sidebar slide-nav">
+		<div class="menu">
+			<a data-scroll-nav="0" class="active" href="#home">Inicio</a>
+			<a data-scroll-nav="1" href="#about">Acerca de</a>
+			<a data-scroll-nav="2" href="#services">Servicios</a>
+			<a data-scroll-nav="3" href="#work">Equipo</a>
+			<a data-scroll-nav="4" href="#blog">Blog</a>
+			<a data-scroll-nav="5" href="#contact">Contacto</a>
+		</div>
+		<div class="menu-info">
+			<p>© 2021, Operjs Todos los derechos reservados.</p>
+		</div>
+	</div>
+	<div class="gb-cont">
+		<section class="s-header" id="home" data-scroll-index="0">
+			<div class="cloud-over">
+				<div class="header-overlay">
+					<div class="middle-c text-center">
+						<div class="container">
+							<div class="row">
+								<div class="capt col-md-8 col-sm-11">
+									<h1>Somos <span>Operjs</span> brindamos <span>soluciones</span> para empresas
+										<span>y negocios</span></h1>
+									<a data-scroll-nav="3" href="#work">Proyectos</a>
+									<a data-scroll-nav="5" href="#contact" id="cta-btn">Contacto</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a href="#about" data-scroll-nav="1" class="know-more">
+					</a>
+				</div>
+			</div>
+		</section>
+		<section class="sections about" id="about" data-scroll-index="1">
+			<div class="container">
+				<div class="row">
+					<div class="s-title col-md-12">
+						<h2>Acerca de</h2>
+						<span>Desarrollo, consultoria, migraciones</span>
+					</div>
+					<div class="about-img col-lg-4 col-md-5">
+						<img src="./img/about.jpg" style="width: 100%" alt="Acerca de">
+					</div>
+					<!-- END ABOUT PUCTURE -->
+
+					<!-- START ABOUT PUCTURE -->
+					<div class="about-ct col-lg-8 col-md-7">
+						<h3>My name is Doe and im a <span>Web Designer</span></h3>
+						<p>When I hear the buzz of the little world among the stalks, and grow familiar with the
+							countless indescribable forms of the insects and flies, then I feel the presence of the
+							Almighty, who formed us in his own image, and the breath of that universal love which bears
+							and sustains us, as it floats around us in an eternity of bliss; and then, my friend, when
+							darkness overspreads my eyes, and heaven and earth seem to dwell in my soul and absorb its
+							power, like the form of a beloved mistress, then I often think with longing .</p>
+						<ul class="info">
+							<li class="col-md-6">
+								<span class="i-title">Name :</span>
+								<span class="value">John Doe</span>
+							</li>
+							<li class="col-md-6">
+								<span class="i-title">Age :</span>
+								<span class="value">28 Years</span>
+							</li>
+							<li class="col-md-6">
+								<span class="i-title">Experience :</span>
+								<span class="value">+10 Years</span>
+							</li>
+							<li class="col-md-6">
+								<span class="i-title">Email :</span>
+								<span class="value">
+									<a href="mailto:email@example.com">email@example.com</a>
+								</span>
+							</li>
+							<li class="col-md-6">
+								<span class="i-title">Interests :</span>
+								<span class="value">Gaming , Boxing</span>
+							</li>
+							<li class="col-md-6">
+								<span class="i-title">Twitter :</span>
+								<span class="value"><a href="#">@Twittername</a></span>
+							</li>
+							<li class="col-md-6">
+								<span class="i-title">Phone :</span>
+								<span class="value">(324) 123-4567</span>
+							</li>
+							<li class="col-md-6">
+								<span class="i-title">Address :</span>
+								<span class="value">88 Some Street</span>
+							</li>
+						</ul>
+
+					</div>
+					<!-- END ABOUT PUCTURE -->
+
+
+				</div>
+			</div>
+		</section>
+		<!-- ====== START ABOUT ME ======  -->
+
+
+		<!-- ====== START SKILLS ======  -->
+		<section class="sections skills">
+			<div class="container">
+				<div class="row">
+					<!-- START SERVICES LEFT SIDE -->
+					<div class="skills-ct col-lg-5 col-md-6">
+						<h4>Excellent results are an outcome of a disciplined work process</h4>
+						<p>When I hear the buzz of the little world among the stalks, and grow familiar with the
+							countless indescribable forms of the insects and flies, then I feel the presence of the
+							Almighty, who formed us in his own image, and the breath of that universal love which bears
+							and sustains us, as it floats around us in an eternity of bliss,ho formed us in his own
+							image.</p>
+					</div>
+					<!-- END SERVICES LEFT SIDE -->
+					<!-- START SERVICES RIGHT SIDE -->
+					<div class="skills-br col-lg-7 col-md-6">
+						<ul>
+							<li>
+								<span>HML5 & CSS3</span>
+								<div class="progress">
+									<div class="progress-bar" data-percent="95" style="width: 95%;">
+										<span>95%</span>
+									</div>
+								</div>
+							</li>
+							<li>
+								<span>PHP</span>
+								<div class="progress">
+									<div class="progress-bar" data-percent="90" style="width: 90%;">
+										<span>90%</span>
+									</div>
+								</div>
+							</li>
+							<li>
+								<span>Javascript</span>
+								<div class="progress">
+									<div class="progress-bar" data-percent="55" style="width: 55%;">
+										<span>55%</span>
+									</div>
+								</div>
+							</li>
+							<li>
+								<span>Wordpress</span>
+								<div class="progress">
+									<div class="progress-bar" data-percent="65" style="width: 65%;">
+										<span>65%</span>
+									</div>
+								</div>
+							</li>
+
+						</ul>
+					</div>
+					<!-- END SERVICES RIGHT SIDE -->
+				</div>
+			</div>
+		</section>
+		<!-- ====== END SKILLS ======  -->
+		<!-- ====== START RESUME ======  -->
+		<section class="sections resume">
+			<div class="container">
+				<div class="row">
+					<!-- START SECTION TITLE -->
+					<div class="s-title col-md-12">
+						<h2>My Resume</h2>
+						<span>10 Years Of Experience</span>
+					</div>
+					<!-- END SECTION TITLE -->
+					<div class="education col-md-6">
+						<div class="column-right">
+							<span class="icon"><i class="fa fa-book" aria-hidden="true"></i></span>
+							<!-- EDUCATION TIME LINE ITEM -->
+							<div class="item">
+								<h6 class="sm-titl">Abc University of Los Angeles.</h6>
+								<span class="date">2015 - 2017</span>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+									incididunt ut labore et dolore magna aliqua.</p>
+							</div>
+							<!-- EDUCATION TIME LINE ITEM -->
+							<div class="item">
+								<h6 class="sm-titl">Specialization Course.</h6>
+								<span class="date">2011 - 2014</span>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+									incididunt ut labore et dolore magna aliqua.</p>
+							</div>
+
+							<!-- EDUCATION TIME LINE ITEM -->
+							<div class="item">
+								<h6 class="sm-titl">Abc High School.</h6>
+								<span class="date">2009 - 2011</span>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+									incididunt ut labore et dolore magna aliqua.</p>
+							</div>
+
+						</div>
+					</div>
+
+					<div class="working col-md-6">
+						<div class="column-left">
+
+							<span class="icon"><i class="fa fa-briefcase" aria-hidden="true"></i></span>
+
+							<!-- WORKING TIME LINE ITEM -->
+							<div class="item">
+								<h6 class="sm-titl">Frontend-developer - Facebook Inc.</h6>
+								<span class="date">2016 - Present</span>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+									incididunt ut labore et dolore magna aliqua.</p>
+							</div>
+
+							<!-- WORKING TIME LINE ITEM -->
+							<div class="item">
+								<h6 class="sm-titl">UI/UX Developer - Google Inc.</h6>
+								<span class="date">2013 - 2016</span>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+									incididunt ut labore et dolore magna aliqua.</p>
+							</div>
+
+							<!-- WORKING TIME LINE ITEM -->
+							<div class="item">
+								<h6 class="sm-titl">Senior Developer - Abc Inc.</h6>
+								<span class="date">2010 - 2013</span>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+									incididunt ut labore et dolore magna aliqua.</p>
+							</div>
+
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+		</section>
+		<!-- ====== END RESUME ======  -->
+
+
+		<!-- ====== START SERVICES ======  -->
+		<section class="sections services" id="services" data-scroll-index="2">
+			<div class="container">
+				<div class="row">
+					<!-- START SECTION TITLE -->
+					<div class="s-title col-md-12">
+						<h2>My Services</h2>
+						<span>Powerful, Creative</span>
+					</div>
+					<!-- END SECTION TITLE -->
+					<!-- START SERVICE ITEM -->
+					<div class="serv-item col-md-4">
+						<span class="icon icon-desktop"></span>
+						<h3>Unique design</h3>
+						<p>Documentation is not only a guide for Ave, it is a comprehensive kit fully integrated with
+							the community.</p>
+					</div>
+					<!-- END SERVICE ITEM -->
+
+					<!-- START SERVICE ITEM -->
+					<div class="serv-item col-md-4">
+						<span class="icon icon-picture"></span>
+						<h3>Parallax Sections</h3>
+						<p>Documentation is not only a guide for Ave, it is a comprehensive kit fully integrated with
+							the community.</p>
+					</div>
+					<!-- END SERVICE ITEM -->
+
+					<!-- START SERVICE ITEM -->
+					<div class="serv-item col-md-4">
+						<span class="icon icon-mobile"></span>
+						<h3>True responsiveness</h3>
+						<p>Documentation is not only a guide for Ave, it is a comprehensive kit fully integrated with
+							the community.</p>
+					</div>
+					<!-- END SERVICE ITEM -->
+
+					<!-- START SERVICE ITEM -->
+					<div class="serv-item col-md-4">
+						<span class="icon icon-megaphone"></span>
+						<h3>Progress and accordians</h3>
+						<p>Documentation is not only a guide for Ave, it is a comprehensive kit fully integrated with
+							the community.</p>
+					</div>
+					<!-- END SERVICE ITEM -->
+
+					<!-- START SERVICE ITEM -->
+					<div class="serv-item col-md-4">
+						<span class="icon icon-target"></span>
+						<h3>Web design and graphic</h3>
+						<p>Documentation is not only a guide for Ave, it is a comprehensive kit fully integrated with
+							the community.</p>
+					</div>
+					<!-- END SERVICE ITEM -->
+
+					<!-- START SERVICE ITEM -->
+					<div class="serv-item col-md-4">
+						<span class="icon icon-layers"></span>
+						<h3>Different layout type</h3>
+						<p>Documentation is not only a guide for Ave, it is a comprehensive kit fully integrated with
+							the community.</p>
+					</div>
+					<!-- END SERVICE ITEM -->
+
+
+				</div>
+			</div>
+		</section>
+		<!-- ====== END SERVICES ======  -->
+		<section class="sections hire-me">
+			<div class="hire-overlay"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-7 hire-c">
+						<h2>Let's Work together</h2>
+						<p>Documentation is not only a guide for Ave, it is a comprehensive kit fully integrated with
+							the community</p>
+						<a data-scroll-nav="5" href="#contact">Get in touch</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="sections portfolio" id="work" data-scroll-index="3">
+			<div class="container">
+				<div class="row">
+					<!-- START SECTION TITLE -->
+					<div class="s-title col-md-12">
+						<h2>Proyectos</h2>
+						<span>Nuestros mejores trabajos</span>
+					</div>
+					<div class="button-group filter-work">
+						<a class="button is-checked" data-filter="*">Todos</a>
+						<a class="button " data-filter=".item-web">Web</a>
+						<a class="button" data-filter=".item-mobile">Mobile</a>
+						<a class="button" data-filter=".item-windowsce">Windows CE</a>
+						<a class="button" data-filter=".item-webdesign">Escritorio</a>
+					</div>
+					<!-- WORK CONTENT START -->
+					<div class="work-content">
+						<!-- WORK ITEM -->
+						<div class="work-item item-web">
+							<div class="work-caption">
+								<!-- WORK IMAGE -->
+								<img src="../../img/portfolio/1.jpg" alt="Image Title" />
+								<!-- WORK TITLE -->
+								<div class="overlay">
+									<div class="info-content">
+										<a class="modal-image" href="../../img/portfolio/1.jpg">
+											<h4>Project N1</h4>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- WORK ITEM -->
+						<div class="work-item item-mobile">
+							<div class="work-caption">
+								<!-- WORK IMAGE -->
+								<img src="../../img/portfolio/2.jpg" alt="Image Title" />
+								<!-- WORK TITLE -->
+								<div class="overlay">
+									<div class="info-content">
+										<a class="modal-image" href="../../img/portfolio/2.jpg">
+											<h4>Project N2</h4>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- WORK ITEM -->
+						<div class="work-item item-mobile">
+							<div class="work-caption">
+								<!-- WORK IMAGE -->
+								<img src="../../img/portfolio/3.jpg" alt="Image Title" />
+								<!-- WORK TITLE -->
+								<div class="overlay">
+									<div class="info-content">
+										<a class="modal-image" href="../../img/portfolio/3.jpg">
+											<h4>Project N3</h4>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- WORK ITEM -->
+						<div class="work-item item-windowsce">
+							<div class="work-caption">
+								<!-- WORK IMAGE -->
+								<img src="../../img/portfolio/4.jpg" alt="Image Title" />
+								<!-- WORK TITLE -->
+								<div class="overlay">
+									<div class="info-content">
+										<a class="modal-image" href="../../img/portfolio/4.jpg">
+											<h4>Project N4</h4>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- WORK ITEM -->
+						<div class="work-item item-escritorio">
+							<div class="work-caption">
+								<!-- WORK IMAGE -->
+								<img src="../../img/portfolio/5.jpg" alt="Image Title" />
+								<!-- WORK TITLE -->
+								<div class="overlay">
+									<div class="info-content">
+										<a class="modal-image" href="../../img/portfolio/5.jpg">
+											<h4>Project N5</h4>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- WORK ITEM -->
+						<div class="work-item item-web">
+							<div class="work-caption">
+								<!-- WORK IMAGE -->
+								<img src="../../img/portfolio/7.jpg" alt="Image Title" />
+
+								<!-- WORK TITLE -->
+								<div class="overlay">
+									<div class="info-content">
+										<a class="modal-image" href="../../img/portfolio/7.jpg">
+											<h4>Project N6</h4>
+										</a>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="sections blog" id="blog" data-scroll-index="4">
+			<div class="container">
+				<div class="row">
+
+
+					<!-- START SECTION TITLE -->
+					<div class="s-title col-md-12">
+						<h2>My Blog</h2>
+						<span>My daily news</span>
+					</div>
+					<div class="clear"></div>
+					<!-- END SECTION TITLE -->
+
+
+					<!-- START BLOG ITEM -->
+					<div class="blog-item col-md-4">
+						<div class="blog-co">
+							<!-- POST PICTURE -->
+							<div class="feature-box-img" style="background-image: url('../../img/blog-img-1.jpg');">
+							</div>
+							<div class="blog-overlay"></div>
+							<!-- POST INFO -->
+							<div class="post-info">
+								<p>Oct 7,2020 | UX</p>
+								<a href="#">
+									<h3>7 UX Principles for Creating a Great Website</h3>
+								</a>
+							</div>
+						</div>
+					</div>
+					<!-- END BLOG ITEM -->
+
+					<!-- START BLOG ITEM -->
+					<div class="blog-item col-md-4">
+						<div class="blog-co">
+							<!-- POST PICTURE -->
+							<div class="feature-box-img" style="background-image: url('../../img/blog-img-3.jpg');">
+							</div>
+							<div class="blog-overlay"></div>
+							<!-- POST INFO -->
+							<div class="post-info">
+								<p>Oct 7,2020 | Business</p>
+								<a href="#">
+									<h3>Designed for Everyone, Everywhere</h3>
+								</a>
+							</div>
+						</div>
+					</div>
+					<!-- END BLOG ITEM -->
+
+					<!-- START BLOG ITEM -->
+					<div class="blog-item col-md-4">
+						<div class="blog-co">
+							<!-- POST PICTURE -->
+							<div class="feature-box-img" style="background-image: url('../../img/blog-img-2.jpg');">
+							</div>
+							<div class="blog-overlay"></div>
+							<!-- POST INFO -->
+							<div class="post-info">
+								<p>Oct 7,2020 | Tech</p>
+								<a href="#">
+									<h3>Bootstrap the Most Popular Framework</h3>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="sections contact" id="contact" data-scroll-index="5">
+			<div class="container">
+				<div class="row">
+					<div class="s-title col-md-12">
+						<h2>Contáctenos</h2>
+						<span>Póngase en contacto con nosotros</span>
+					</div>
+					<div class="clear"></div>
+					<div class="cn-lf col-md-5">
+						<h3>No dude en ponerse en contacto con nosotros para cualquier tipo de información.</h3>
+						<span>Creamos soluciones que se adaptan a sus necesidades para personas como usted.</span>
+						<p>Rodriguez del Busto 4086 - Alto Verde</p>
+						<p>Córdoba, Capital</p>
+						<p>Argentina</p>
+						<p>+54 351 5261500 - 1145</p>
+						<div class="sc-icon">
+							<a href="#0">
+								<span><i class="fa fa-facebook" aria-hidden="true"></i></span>
+							</a>
+							<a href="#0">
+								<span><i class="fa fa-twitter" aria-hidden="true"></i></span>
+							</a>
+						</div>
+					</div>
+					<div class="ct-rt col-md-7">
+						<form action="" method="POST" class="cont-fo">
+							<div class="contact-item col-md-12">
+								<input type="text" name="name" placeholder="Nombre *" required="required">
+							</div>
+							<div class="contact-item col-md-12">
+								<input type="email" name="email" placeholder="Email *" required="required">
+							</div>
+							<div class="contact-item col-md-12">
+								<input type="text" name="subject" placeholder="Asunto">
+							</div>
+							<div class="contact-item col-md-12">
+								<textarea id="form_message" name="message" placeholder="Mensaje *" rows="4"
+									required="required" data-error="Message."></textarea>
+							</div>
+							<div class="contact-item col-md-12">
+								<input type="submit" class="button disabled" value="Enviar">
+							</div>
+						</form>
+					</div>
+					<!-- END CONTACT RIGHT SIDE -->
+				</div>
+			</div>
+		</section>
+		<section class="sections footer text-center">
+			<div class="container">
+				<div class="row">
+					<h4>© 2021, Operjs Todos los derechos reservados.</h4>
+				</div>
+			</div>
+		</section>
+	</div>
+	<!-- ====== JS ======  -->
+	<!-- JQUERY -->
+	<script src="./js/jquery.v1.12.4.js"></script>
+	<!-- BOOTSTRAP JS -->
+	<script src="./js/bootstrap.min.js"></script>
+	<!-- COUNT TO JS -->
+	<script src="./js/jquery.countTo.js"></script>
+	<!-- OWL CAROUSEL JS -->
+	<script src="./js/owl.carousel.min.js"></script>
+	<!-- ISOTOPE JS -->
+	<script src="./js/isotope.pkgd.min.js"></script>
+	<!-- MASONRY JS -->
+	<script src="./js/masonry.pkgd.min.js"></script>
+	<!-- Magnific Popup core JS -->
+	<script src="./js/jquery.magnific-popup.min.js"></script>
+	<!-- PARSLEY file -->
+	<script src="./js/parsley.js"></script>
+	<!-- SCROLLIT file -->
+	<script src="./js/scrollIt.min.js"></script>
+	<!-- TYPE file -->
+	<script src="./js/typed.js"></script>
+	<!-- custom js -->
+	<script src="./js/main.js"></script>
+</body>
+
+</html>

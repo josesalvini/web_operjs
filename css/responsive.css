@@ -1,0 +1,255 @@
+/* -------------------------------------------------------
+                     phone & tablet 
+-------------------------------------------------------- */
+@media (max-width: 1024px) {
+	.sidebar {
+	    width: 100%;
+	    height: 90px;
+	    border-bottom: 1px solid #eee;
+	}
+	.sidebar .humberger-menu {
+	    padding: 26px 40px;
+	    height: 92px;
+	    position: relative;
+	    float: right;
+	}
+	.sidebar .humberger-menu span {
+	    top: 33px;
+	}
+	.sidebar .humberger-menu-active span {
+	    top: 27px;
+	}
+	.gb-cont {
+	    margin-left: 0;
+	}
+	.slide-nav-active {
+	    left: -1px;
+	    padding: 120px 20px 20px 60px;
+	}
+	.about .about-img {
+	    padding-right: 10px;
+	}
+	.about .about-ct {
+	    padding-left: 20px;
+	}
+	.skills-br {
+	    padding-left: 25px;
+	}
+	.services .serv-item {
+	    padding: 0 15px;
+	}
+
+}
+
+@media (max-width: 991px) {
+	.s-header .middle-c {
+	    top: 53.5%;
+	}
+	.s-header .middle-c .capt {
+	    text-align: center;
+	    float: none;
+	    width: 100%;
+	}
+	.know-more {
+		display: none !important;
+	}
+	.s-title:before {
+	    width: 50%; 
+	}
+	.about .about-img {
+	    padding: 0 15px;
+	}
+	.about .about-ct {
+	    padding: 0 15px;
+	    margin-top: 60px;
+	}
+	.skills-br {
+	    padding: 0 15px;
+	    margin-top: 60px;
+	}
+	.resume .column-left {
+		float: right;
+	}
+	.resume .column-left .icon {
+    	right: calc(0% - 4px);
+	}
+	.resume .column-right {
+		float: left;
+		margin-left: 0;
+	}
+	.resume .working {
+		float: left;
+		margin-top: 130px;
+		margin-bottom: 30px;
+	    margin-right: 15px;
+	}
+	.resume .education {
+	    margin-left: 15px;
+	}
+	.resume .column-right {
+		float: left;
+	}
+	.resume .column-right .icon {
+    	left: calc(0% - 4px);
+	}
+    .portfolio .work-item {
+        width: 50%;
+    }
+    .blog .blog-item {
+    	margin-bottom: 60px;
+    }
+    .blog .blog-item:last-child {
+    	margin-bottom: 0;
+    }
+    .contact .ct-rt {
+    	padding: 0 15px;
+    	margin-top: 60px;
+    }
+	.contact-item {
+	    margin-bottom: 30px;
+	    display: inline-block;
+	    width: 100%;
+		padding-left: 0;
+	}
+
+}
+
+@media (max-width: 770px) {
+	.portfolio .work-item {
+        width: 48.8%;
+	}
+}
+
+@media (max-width: 575px) {
+	.slide-nav-active {
+	    padding: 120px 20px 20px 20px;
+	}
+	.s-title:before {
+	    width: 70%;
+	    left: 20px;
+	}	
+	.s-title:after {
+	    left: 20px;
+	}
+	.s-title span {
+	    margin-left: 0;
+	    display: block;
+    	padding: 6px;
+	}
+	.hire-me .hire-c h2 {
+		font-size: 35px;
+	    line-height: 40px;
+	}
+	.portfolio .work-item {
+	    width: 98%;
+	    padding: 0 5px 12px 19px;
+	}
+	.portfolio .filter-work a {
+	    margin-bottom: 15px;
+	    display: inline-block;
+	}
+	.testimonials .t-item {
+	    text-align: center;
+	}
+	.owl-theme .owl-nav.disabled+.owl-dots {
+	    text-align: center;
+	    float: none;
+	    margin-left: 0;
+	}
+}
+
+@media (max-width: 425px) {
+	.slide-nav-active {
+	    left: 0px;
+	    width: 100%;
+	}
+	.lf-sidebar .menu-info {
+	    left: 0;
+	}
+	.slide-nav-active {
+	    padding: 100px 20px 20px 20px;
+	}
+	.sidebar {
+	    height: 70px;
+	}
+	.sidebar .side-logo {
+	    height: 70.4px;
+	    line-height: 70px;
+	}
+	.sidebar .humberger-menu {
+	    height: 70px;
+	}
+	.sidebar .humberger-menu span {
+	    top: 24px;
+	}
+	.lf-sidebar a {
+	    font-size: 18px;
+	    line-height: 25px;
+	}
+	.lf-sidebar a:before {
+	    top: 11px;
+	    width: 6px;
+	    height: 6px;
+	}
+	.s-header .middle-c {
+	    top: 55.5%;
+	}
+	.s-header .middle-c .capt h1 {
+	    font-size: 35px;
+	    line-height: 40px;
+	    margin-bottom: 10px;
+	}
+	.s-header .middle-c .capt a {
+	    margin-top: 10px;
+	}
+	.sidebar .humberger-menu-active span {
+	    top: 17px;
+	}
+	.lf-sidebar .menu-info {
+    	display: none;
+	}
+	.s-title h2 {
+	    font-size: 40px;
+	}
+	.s-title span {
+	    font-size: 15px;
+	}
+	
+}
+
+@media (max-width: 320px) {
+	.s-header .middle-c .capt h1 {
+	    font-size: 31px;
+	    line-height: 35px;
+	    margin-bottom: 10px;
+	}
+	.s-header .middle-c {
+	    top: 57.5%;
+	}
+}
+
+
+@media (max-height: 1024px) {
+	.s-header .middle-c {
+	    top: 52.5%;
+	}
+}
+
+@media (max-height: 425px) {
+	.sidebar {
+	    display: none;
+	}
+	.s-header .middle-c {
+	    top: 54.5%;
+	}
+	.s-header .middle-c .capt h1 {
+	    font-size: 35px;
+	    line-height: 40px;
+	    margin-bottom: 10px;
+	}
+	.s-header .middle-c .capt a {
+	    margin-top: 10px;
+	}
+}
+
+

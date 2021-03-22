@@ -1,0 +1,125 @@
+/* ========================================================================================= */
+/* ======================================= COLOR : #e74c3c =================================== */
+/* ========================================================================================= */
+.s-header .header-overlay {
+  background: -webkit-linear-gradient(to right, rgba(231, 76, 60, 0.7), rgba(225, 0, 0, 0.7));
+  background: -moz-linear-gradient(to right, rgba(231, 76, 60, 0.7), rgba(225, 0, 0, 0.7));
+  background: -o-linear-gradient(to right, rgba(231, 76, 60, 0.7), rgba(225, 0, 0, 0.7));
+  background: -ms-linear-gradient(to right, rgba(231, 76, 60, 0.7), rgba(225, 0, 0, 0.7));
+  background: linear-gradient(to right, rgba(231, 76, 60, 0.7), rgba(225, 0, 0, 0.7));
+}
+.s-header .capt #cta-btn {
+  background: #333;
+  background: -webkit-linear-gradient(to right, #282828, #333);
+  background: -moz-linear-gradient(to right, #282828, #333);
+  background: -o-linear-gradient(to right, #282828, #333);
+  background: -ms-linear-gradient(to right, #282828, #333);
+  background: linear-gradient(to right, #282828, #333);
+}
+.s-header .capt a:hover {
+	background-color: #333;
+}
+.loading .sk-folding-cube .sk-cube:before {
+  background-color: #e74c3c;
+}
+.lf-sidebar .active,
+.lf-sidebar a:hover {
+  color: #e74c3c;
+}
+.lf-sidebar .active:before {
+  background-color: #e74c3c;
+}
+.s-header .middle-c .capt #cta-btn {
+  background-color: #e74c3c;
+}
+.about .about-ct h3 span {
+  color: #e74c3c;
+}
+.about .info li a:hover {
+  color: #e74c3c;
+}
+.skills-br li .progress-bar span {
+  background: -webkit-linear-gradient(to right, rgba(231, 76, 60), rgba(225, 0, 0));
+  background: -moz-linear-gradient(to right, rgba(231, 76, 60), rgba(225, 0, 0));
+  background: -o-linear-gradient(to right, rgba(231, 76, 60), rgba(225, 0, 0));
+  background: -ms-linear-gradient(to right, rgba(231, 76, 60), rgba(225, 0, 0));
+  background: linear-gradient(to right, rgba(231, 76, 60), rgba(225, 0, 0));
+}
+.skills li .progress-bar::before {
+  background: -webkit-linear-gradient(to right, rgba(231, 76, 60, 1), rgba(225, 0, 0, 1));
+  background: -moz-linear-gradient(to right, rgba(231, 76, 60, 1), rgba(225, 0, 0, 1));
+  background: -o-linear-gradient(to right, rgba(231, 76, 60, 1), rgba(225, 0, 0, 1));
+  background: -ms-linear-gradient(to right, rgba(231, 76, 60, 1), rgba(225, 0, 0, 1));
+  background: linear-gradient(to right, rgba(231, 76, 60, 1), rgba(225, 0, 0, 1));
+}
+.resume .column-left .icon {
+  background: #e74c3c;
+}
+.resume .item .date {
+  color: #e74c3c;
+}
+.resume .item:after {
+  background: #e74c3c;
+}
+.resume .column-right .icon {
+  background: #e74c3c;
+}
+.hire-me .hire-c a {
+  background: #e74c3c;
+}
+.services .serv-item i,
+.services .serv-item .icon {
+  color: #e74c3c;
+}
+.services .serv-item:hover .icon,
+.services .serv-item:hover i {
+  background-color: #e74c3c;
+  border-color: #e74c3c;
+}
+.testimonial-box h3 {
+  color: #e74c3c;
+}
+.portfolio .filter-work .is-checked {
+  background: #e74c3c;
+  background: -webkit-linear-gradient(to right, #E10000, #e74c3c);
+  background: -moz-linear-gradient(to right, #E10000, #e74c3c);
+  background: -o-linear-gradient(to right, #E10000, #e74c3c);
+  background: -ms-linear-gradient(to right, #E10000, #e74c3c);
+  background: linear-gradient(to right, #E10000, #e74c3c);
+}
+.portfolio .filter-work a:hover {
+  background: #e74c3c;
+  background: -webkit-linear-gradient(to right, #E10000, #e74c3c);
+  background: -moz-linear-gradient(to right, #E10000, #e74c3c);
+  background: -o-linear-gradient(to right, #E10000, #e74c3c);
+  background: -ms-linear-gradient(to right, #E10000, #e74c3c);
+  background: linear-gradient(to right, #E10000, #e74c3c);
+}
+.portfolio .work-caption .overlay {
+  background: rgb(225, 0, 0, 0.95);
+}
+.owl-theme .owl-dots .active span {
+  background: #e74c3c !important;
+  border-color: #e74c3c !important;
+}
+.blog .blog-item .blog-co .post-info p {
+  border: 1px solid #e74c3c;
+  background: #e74c3c;
+}
+.blog .blog-item .blog-co .post-info h3:hover {
+  color: #e74c3c;
+}
+.contact .cn-lf .sc-icon span {
+  border: 2px solid #e74c3c;
+}
+.contact .ct-rt .contact-item .button {
+  background-color: #e74c3c;
+  border-color: #e74c3c;
+}
+.contact .contact-item input:focus,
+.contact .contact-item textarea:focus {
+  border-color: #e74c3c;
+}
+
+
+

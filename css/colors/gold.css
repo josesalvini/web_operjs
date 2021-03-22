@@ -1,0 +1,109 @@
+/* ========================================================================================= */
+/* ======================================= COLOR : #D9B130 =================================== */
+/* ========================================================================================= */
+.loading .sk-folding-cube .sk-cube:before {
+  background-color: #D9B130;
+}
+.lf-sidebar .active,
+.lf-sidebar a:hover {
+  color: #D9B130;
+}
+.lf-sidebar .active:before {
+  background-color: #D9B130;
+}
+.s-header .middle-c .capt #cta-btn {
+  background-color: #D9B130;
+}
+.s-header .middle-c .capt a:hover {
+  background-color: #D9B130;
+}
+.about .about-ct h3 span {
+  color: #D9B130;
+}
+.about .info li a:hover {
+  color: #D9B130;
+}
+.skills-br li .progress-bar span {
+  background: -webkit-linear-gradient(to right, rgba(217, 177, 48), rgba(243, 156, 18));
+  background: -moz-linear-gradient(to right, rgba(217, 177, 48), rgba(243, 156, 18));
+  background: -o-linear-gradient(to right, rgba(217, 177, 48), rgba(243, 156, 18));
+  background: -ms-linear-gradient(to right, rgba(217, 177, 48), rgba(243, 156, 18));
+  background: linear-gradient(to right, rgba(217, 177, 48), rgba(243, 156, 18));
+}
+.skills li .progress-bar::before {
+  background: -webkit-linear-gradient(to right, rgba(217, 177, 48, 1), rgba(243, 156, 18, 1));
+  background: -moz-linear-gradient(to right, rgba(217, 177, 48, 1), rgba(243, 156, 18, 1));
+  background: -o-linear-gradient(to right, rgba(217, 177, 48, 1), rgba(243, 156, 18, 1));
+  background: -ms-linear-gradient(to right, rgba(217, 177, 48, 1), rgba(243, 156, 18, 1));
+  background: linear-gradient(to right, rgba(217, 177, 48, 1), rgba(243, 156, 18, 1));
+}
+.resume .column-left .icon {
+  background: #D9B130;
+}
+.resume .item .date {
+  color: #D9B130;
+}
+.resume .item:after {
+  background: #D9B130;
+}
+.resume .column-right .icon {
+  background: #D9B130;
+}
+.hire-me .hire-c a {
+  background: #D9B130;
+}
+.services .serv-item i,
+.services .serv-item .icon {
+  color: #D9B130;
+}
+.services .serv-item:hover .icon,
+.services .serv-item:hover i {
+  background-color: #D9B130;
+  border-color: #D9B130;
+}
+.testimonial-box h3 {
+  color: #D9B130;
+}
+.portfolio .filter-work .is-checked {
+  background: #D9B130;
+  background: -webkit-linear-gradient(to right, #F39C12, #D9B130);
+  background: -moz-linear-gradient(to right, #F39C12, #D9B130);
+  background: -o-linear-gradient(to right, #F39C12, #D9B130);
+  background: -ms-linear-gradient(to right, #F39C12, #D9B130);
+  background: linear-gradient(to right, #F39C12, #D9B130);
+}
+.portfolio .filter-work a:hover {
+  background: #D9B130;
+  background: -webkit-linear-gradient(to right, #F39C12, #D9B130);
+  background: -moz-linear-gradient(to right, #F39C12, #D9B130);
+  background: -o-linear-gradient(to right, #F39C12, #D9B130);
+  background: -ms-linear-gradient(to right, #F39C12, #D9B130);
+  background: linear-gradient(to right, #F39C12, #D9B130);
+}
+.portfolio .work-caption .overlay {
+  background: rgb(217, 177, 48, 0.95);
+}
+.owl-theme .owl-dots .active span {
+  background: #D9B130 !important;
+  border-color: #D9B130 !important;
+}
+.blog .blog-item .blog-co .post-info p {
+  border: 1px solid #D9B130;
+  background: #D9B130;
+}
+.blog .blog-item .blog-co .post-info h3:hover {
+  color: #D9B130;
+}
+.contact .cn-lf .sc-icon span {
+  border: 2px solid #D9B130;
+}
+.contact .ct-rt .contact-item .button {
+  background-color: #D9B130;
+  border-color: #D9B130;
+}
+.contact .contact-item input:focus,
+.contact .contact-item textarea:focus {
+  border-color: #D9B130;
+}
+
+
