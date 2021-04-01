@@ -1351,14 +1351,13 @@ img {
 .project .work-caption img {
     height: auto;
     width: 250px;
-	width: 250px;
+    max-width: 250px;
     -webkit-transition: ease-out .3s;
     -moz-transition: ease-out .3s;
     -o-transition: ease-out .3s;
     -ms-transition: ease-out .3s;
     transition: ease-out .3s;
 }
-
 
 .project .work-caption .overlay {
     -moz-box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.2);

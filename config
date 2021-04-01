@@ -1,9 +1,0 @@
-{
-    "conexion":{
-        "server" : "185.201.11.149",
-        "user" : "u979149218_Licencias",
-        "password" : "root123456789",
-        "database" : "u979149218_Licencias",
-        "port": "3306"
-    }
-}
