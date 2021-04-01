@@ -1,0 +1,5 @@
+<?php
+
+?>
+
+Recurso no encontrado
