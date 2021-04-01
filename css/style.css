@@ -9,9 +9,9 @@
     7. RESUME
     8. SERVICES
     9. HIRE ME
-    10. PORTFOLIO
+    10. project
     11. TESTIMONIALS
-    12. BLOG
+    12. team
     13. CONTACT US
     14. FOOTER
     15. CONTACT PAGE
@@ -1300,20 +1300,20 @@ img {
 
 
 /*---------------------------------------
-  10. PORTFOLIO
+  10. project
 -----------------------------------------*/
 
-.portfolio {
+.project {
     padding: 120px 0 110px 0;
 }
 
-.portfolio .filter-work {
+.project .filter-work {
     margin: 0 auto;
     margin-bottom: 45px;
     padding: 0 13px;
 }
 
-.portfolio .filter-work a {
+.project .filter-work a {
     color: #666;
     border: 1px solid #eee;
     text-transform: uppercase;
@@ -1330,28 +1330,28 @@ img {
     display: inline-block;
 }
 
-.portfolio .filter-work .is-checked {
-    color: #FFF;
+.project .filter-work .is-checked {
+    color: #3BAFDA;
 }
 
-.portfolio .filter-work a:hover {
-    color: #FFF;
+.project .filter-work a:hover {
+    color: #3BAFDA;
 }
 
-.portfolio .work-item {
+.project .work-item {
     padding: 0 0px 10px 14px;
     width: 33%;
     text-align: center;
 }
 
-.portfolio .work-caption {
+.project .work-caption {
     position: relative;
 }
 
-.portfolio .work-caption img {
+.project .work-caption img {
     height: auto;
-    width: 100%;
-    max-width: 100%;
+    width: 250px;
+	width: 250px;
     -webkit-transition: ease-out .3s;
     -moz-transition: ease-out .3s;
     -o-transition: ease-out .3s;
@@ -1359,7 +1359,8 @@ img {
     transition: ease-out .3s;
 }
 
-.portfolio .work-caption .overlay {
+
+.project .work-caption .overlay {
     -moz-box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.2);
     -ms-box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.2);
     -o-box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.2);
@@ -1377,23 +1378,23 @@ img {
     opacity: 0;
 }
 
-.portfolio .work-caption .overlay:focus {
+.project .work-caption .overlay:focus {
     outline: none;
 }
 
-.portfolio .work-caption .overlay span {
+.project .work-caption .overlay span {
     color: #1c1c1c;
 }
 
-.portfolio .work-item:hover .overlay {
+.project .work-item:hover .overlay {
     opacity: 1;
 }
 
-.portfolio .work-item .work-caption {
+.project .work-item .work-caption {
     overflow: hidden;
 }
 
-.portfolio .work-caption .info-content {
+.project .work-caption .info-content {
     position: absolute;
     width: 100%;
     top: 50%;
@@ -1405,7 +1406,7 @@ img {
     transform: translate(0, -50%);
 }
 
-.portfolio .work-caption .info-content h4 {
+.project .work-caption .info-content h4 {
     color: #FFF;
     font-size: 15.5px;
     font-family: 'Poppins', sans-serif;
@@ -1414,14 +1415,14 @@ img {
     text-transform: uppercase;
 }
 
-.portfolio .work-caption .info-content p {
+.project .work-caption .info-content p {
     font-size: 13px;
     font-weight: 400;
     font-style: italic;
     color: #ddd;
 }
 
-.portfolio .work-caption .know-more {
+.project .work-caption .know-more {
     position: absolute;
     bottom: 15px;
     right: 15px;
@@ -1429,10 +1430,10 @@ img {
     font-size: 30px;
 }
 
-.portfolio .work-caption:focus,
-.portfolio .work-item:focus,
-.portfolio .work-caption img:focus,
-.portfolio .work-caption a:focus {
+.project .work-caption:focus,
+.project .work-item:focus,
+.project .work-caption img:focus,
+.project .work-caption a:focus {
     outline: none;
 }
 
@@ -1528,10 +1529,10 @@ img {
 
 
 /*---------------------------------------
-  12. BLOG
+  12. team
 -----------------------------------------*/
 
-.blog .blog-item .blog-co {
+.team .team-item .team-co {
     border: 1px solid #e6e6e6;
     padding: 70px;
     position: relative;
@@ -1539,7 +1540,7 @@ img {
     min-height: 360px;
 }
 
-.blog .blog-item .blog-co .feature-box-img {
+.team .team-item .team-co .feature-box-img {
     bottom: 0;
     left: 0;
     position: absolute;
@@ -1555,7 +1556,7 @@ img {
     background-position: center center;
 }
 
-.blog .blog-item .blog-co .blog-overlay {
+.team .team-item .team-co .team-overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -1564,14 +1565,14 @@ img {
     background: rgba(12, 12, 12, .7);
 }
 
-.blog .blog-item .blog-co .post-info {
+.team .team-item .team-co .post-info {
     position: absolute;
     bottom: 0;
     left: 0;
     padding: 30px;
 }
 
-.blog .blog-item .blog-co .post-info p {
+.team .team-item .team-co .post-info p {
     color: #FFF;
     padding: 3px 15px;
     font-weight: 400;
@@ -1584,17 +1585,17 @@ img {
     font-size: 13px;
 }
 
-.blog .blog-item .blog-co .post-info i,
-.blog .blog-item .blog-co .post-info .icon {
+.team .team-item .team-co .post-info i,
+.team .team-item .team-co .post-info .icon {
     margin-left: 10px;
 }
 
-.blog .blog-item .blog-co .post-info i:first-child,
-.blog .blog-item .blog-co .post-info .icon:first-child {
+.team .team-item .team-co .post-info i:first-child,
+.team .team-item .team-co .post-info .icon:first-child {
     margin-left: 0;
 }
 
-.blog .blog-item .blog-co .post-info h3 {
+.team .team-item .team-co .post-info h3 {
     color: #FFF;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
