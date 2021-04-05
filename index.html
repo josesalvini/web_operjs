@@ -238,7 +238,7 @@
                     <!-- START SECTION TITLE -->
                     <div class="s-title col-md-12 ">
                         <h2>Proyectos</h2>
-                        <span>Nuestros trabajos</span>
+                        <span>Nuestros mejores trabajos</span>
                     </div>
                     <div class="button-group filter-work ">
                         <a class="button is-checked " data-filter="* ">Todos</a>
@@ -258,7 +258,7 @@
                                 <div class="overlay ">
                                     <div class="info-content ">
                                         <a class="modal-image " href="../../img/movil/1.png ">
-                                            <h4>Proyecto 1</h4>
+                                            <h4>Project N1</h4>
                                         </a>
                                     </div>
                                 </div>
@@ -273,7 +273,7 @@
                                 <div class="overlay ">
                                     <div class="info-content ">
                                         <a class="modal-image " href="../../img/movil/2.png ">
-                                            <h4>Proyecto 2</h4>
+                                            <h4>Project N2</h4>
                                         </a>
                                     </div>
                                 </div>
@@ -288,7 +288,7 @@
                                 <div class="overlay ">
                                     <div class="info-content ">
                                         <a class="modal-image " href="../../img/movil/3.png ">
-                                            <h4>Proyecto 3</h4>
+                                            <h4>Project N3</h4>
                                         </a>
                                     </div>
                                 </div>
@@ -303,7 +303,7 @@
                                 <div class="overlay ">
                                     <div class="info-content ">
                                         <a class="modal-image " href="../../img/movil/4.png ">
-                                            <h4>Proyecto 4</h4>
+                                            <h4>Project N4</h4>
                                         </a>
                                     </div>
                                 </div>
@@ -318,7 +318,7 @@
                                 <div class="overlay ">
                                     <div class="info-content ">
                                         <a class="modal-image " href="../../img/movil/5.png ">
-                                            <h4>Proyecto 5</h4>
+                                            <h4>Project N5</h4>
                                         </a>
                                     </div>
                                 </div>
@@ -334,7 +334,7 @@
                                 <div class="overlay ">
                                     <div class="info-content ">
                                         <a class="modal-image " href="../../img/movil/7.png ">
-                                            <h4>Proyecto 6</h4>
+                                            <h4>Project N6</h4>
                                         </a>
                                     </div>
                                 </div>
@@ -433,21 +433,26 @@
                         </div>
                     </div>
                     <div class="ct-rt col-md-7 ">
-                        <form method="POST " class="cont-fo ">
-                            <div class="contact-item col-md-12 ">
-                                <input type="text " name="name " placeholder="Nombre * " required="required ">
+                        <form method="post" class="cont-fo" action="contactomail.php">
+                            <div class="contact-item col-md-12 form-group">
+                                <input type="text " id="name" name="name " placeholder="Nombre * " required="required ">
                             </div>
-                            <div class="contact-item col-md-12 ">
-                                <input type="email " name="email " placeholder="Email * " required="required ">
+                            <div class="contact-item col-md-12 form-group">
+                                <input type="email " id="email" name="email " placeholder="Email * " required="required ">
                             </div>
-                            <div class="contact-item col-md-12 ">
-                                <input type="text " name="subject " placeholder="Asunto ">
+							<div class="contact-item col-md-12 form-group">
+                                <input type="text " id="telephone" name="telephone " placeholder="Telefono * " required="required ">
                             </div>
-                            <div class="contact-item col-md-12 ">
-                                <textarea id="form_message " name="message " placeholder="Mensaje * " rows="4 " required="required " data-error="Message. "></textarea>
+                            <div class="contact-item col-md-12 form-group">
+                                <input type="text " id="subject" name="subject " placeholder="Asunto ">
                             </div>
-                            <div class="contact-item col-md-12 ">
-                                <input type="submit " class="button disabled " value="Enviar ">
+                            <div class="contact-item col-md-12 form-group">
+                                <textarea id="message" name="message " placeholder="Mensaje * " rows="4 " required="required " data-error="Message. "></textarea>
+                            </div>
+							<div class="contact-item col-md-12 form-group">
+								<button class="btn btn-primary btn-lg" type="submit" 
+								id="submit" name="submit">Enviar Mensaje</button>
+                                <!--button type="submit" value="submit" id="submit" name="submit" class="btn btn-primary btn-lg" required="required">Enviar Mensaje</button-->
                             </div>
                         </form>
                     </div>

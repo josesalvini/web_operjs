@@ -1,17 +1,28 @@
 RewriteEngine On
 
-# esta lineas son para quitar la ext .php
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}.php -f
-RewriteRule ^(.*)$ $1.php
+## hide .php extension
+# To externally redirect
+#RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s([^.]+)\.php [NC]
+#RewriteRule ^ %1 [R,L,NC]
+
+## To internally redirect
+#RewriteCond %{REQUEST_FILENAME}.php -f
+#RewriteRule ^ %{REQUEST_FILENAME}.php [L]
 
 # esta lineas son para quitar la ext .html
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^(.*)$ $1.html
 
+
 # Si la ruta no es un archivo existente, ni una carpeta
 # Reescribir al index
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.+?)/?$ index.php?url=$1 [L,QSA]
+# DO NOT REMOVE THIS LINE AND THE LINES BELLOW SSL_REDIRECT:operjs.com
+RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP_HOST} (www\.)?operjs.com
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+# DO NOT REMOVE THIS LINE AND THE LINES BELLOW SSL_REDIRECT:operjs.com
