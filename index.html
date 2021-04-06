@@ -433,7 +433,7 @@
                         </div>
                     </div>
                     <div class="ct-rt col-md-7 ">
-                        <form method="post" class="cont-fo" action="contactomail.php">
+                        <form method="post" class="cont-fo" action="./mail/sendMail.php" enctype="multipart/form-data">
                             <div class="contact-item col-md-12 form-group">
                                 <input type="text " id="name" name="name " placeholder="Nombre * " required="required ">
                             </div>
@@ -451,7 +451,7 @@
                             </div>
 							<div class="contact-item col-md-12 form-group">
 								<button class="btn btn-primary btn-lg" type="submit" 
-								id="submit" name="submit">Enviar Mensaje</button>
+								id="submit" name="submit">Enviar mensaje</button>
                                 <!--button type="submit" value="submit" id="submit" name="submit" class="btn btn-primary btn-lg" required="required">Enviar Mensaje</button-->
                             </div>
                         </form>
@@ -647,7 +647,4 @@
         <!--Div where the WhatsApp will be rendered-->
         <div id="WAButton "></div>
 </body>
-
-</html>
-
 </html>

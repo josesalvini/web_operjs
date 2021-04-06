@@ -21,14 +21,12 @@ if(isset($_POST['submit'])) {
 	$para = 'info@operjs.com';
 
 	$resultado = mail($para, $asunto, utf8_decode($mensaje), $header);
-	
+
 	if($resultado){
 		echo "<h4>Mail enviado</h4>";
 		echo "Nombre: ".$nombre;
 		//header("Location:index.html");
 	}
-	
-	
 }
 
 ?>
